@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft New Tai Lue;
+    font-size: 22px;
+}
+    
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 35px;
+    border: 2px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 210px;
+    height: auto;
+    margin-top: 25px;
+}
+
+.main{
+    max-width: 2200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 90px;
+
+}
+        
+.iframe{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 50px;
+}
+
+div.thebox
+        {
+        box-sizing: border-box;
+        width: 3000px;
+        height: 1700px;
+        border: 2px;
+        display: block;
+        background: url(../2.jpg) center ;
+        background-size: cover ;
+        background-repeat: no-repeat ;
+        background-origin: content-box ;
+        position: fixed ;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin-top: 485px;
+        }
+
+
+               
+#demoFont {
+            font-family: "Lucida Console", Monaco, monospace;
+            font-size: 35px;
+            letter-spacing: 4px;
+            word-spacing: 3.4px;
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none solid rgb(68, 68, 68);
+            font-style: normal;
+            font-variant: normal;
+            text-transform: none;
+            }
+
+#demoFont{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    right: 5%;
+}
+
+#demoFont1 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 65px;
+    letter-spacing: -2.2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    }
+
+#demoFont1{
+    position: absolute; 
+    top: 12%;
+    left: 39%;
+    
+    
+}
+
+#demoFont2 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 65px;
+    letter-spacing: -2.2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    }
+
+#demoFont2{
+    position: absolute; 
+    top: 12%;
+    left: 46%;
+}
+
+#demoFont3 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 65px;
+    letter-spacing: -2.2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    }
+
+#demoFont3{
+    position: absolute; 
+    top: 12%;
+    left: 44%;
+}
+
+#demoFont4 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 65px;
+    letter-spacing: -2.2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    }
+
+#demoFont4{
+    position: absolute; 
+    top: 12%;
+    left: 44%;
+}
+
+#demoFont5 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 65px;
+    letter-spacing: -2.2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    }
+
+#demoFont5{
+    position: absolute; 
+    top: 12%;
+    left: 40%;
+}
+
+#lista{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+}
+
+#lista{ list-style-type: disc; 
+    font-family: "Lucida Console", Monaco, monospace;
+            font-size: 100px;
+            letter-spacing: 4px;
+            word-spacing: 3.4px;
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none solid rgb(68, 68, 68);
+            font-style: normal;
+            font-variant: normal;
+            text-transform: none;
+}
+
+.iframe2{
+    position: absolute;
+    top: 505;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 750px;
+}
+
+.iframe3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.iframeM{
+    position: absolute;
+    top: 39%;
+    left: 25%;
+}
